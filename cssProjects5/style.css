@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    width: 100vw;
+    height:100vh;
+    background-color: aqua;
+    border: 2px solid red;
+}
+.HeadDiv{
+    background-color: antiquewhite;
+    height: 15%;
+    width: 100%;
+    border: 2px solid red;
+}
+.bodyDiv{
+    background-color: rgb(255, 158, 32);
+    /* height: 100px; */
+    height: 85%;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+.bodyMaindiv{
+    border: 2px solid blue;
+    margin: 10px;
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+}

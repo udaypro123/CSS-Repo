@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainconatianer{
+    border: 2px solid red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.firstDiv{
+
+    height: 30px;
+    width: 300px;
+    /* border: 2px solid red; */
+    margin: 10px;
+    display: flex;
+    box-shadow:0px 0px 10px 10px rgb(251, 228, 223);
+}
+.firstDIVpart{
+    height: 100%;
+    width: 30%;
+    background: linear-gradient(#924825,#f03f6d ,#924825);
+ 
+}
+.firstDIVpart1{
+    height: 100%;
+    width: 2%;
+    background-color: #3d282d;
+}
+.firstDIVpart2{
+    height: 100%;
+    width: 3%;
+    background-color: rgb(212, 151, 151);
+}
+.firstDIVpart3{
+    height: 100%;
+    width: 2%;
+    background-color: #3d282d;
+}
+.firstDIVpart4{
+    height: 100%;
+    width: 49%;
+    background: linear-gradient(#c3a58f, #f5a3b3,#c3a58f);
+}
+.firstDIVpart5{
+    height: 100%;
+    width: 14%;
+    background: linear-gradient(#954c2a,#fd4274 ,#924825);
+}
+
+
+.secondDiv{
+    height: 30px;
+    width: 300px;
+    box-shadow:0px 0px 10px 10px #d4f5c4;
+    margin: 10px;
+    display: flex;
+}
+.secDIVpart{
+    height: 100%;
+    width: 30%;
+    background: linear-gradient(#5a7c14,#6ee339 ,#5a7c14);
+ 
+}
+.secDIVpart1{
+    height: 100%;
+    width: 2%;
+    background-color: #3d282d;
+}
+.secDIVpart2{
+    height: 100%;
+    width: 3%;
+    background: linear-gradient(#afc693, #b7f2a5,#afc693);
+}
+.secDIVpart3{
+    height: 100%;
+    width: 2%;
+    background-color: #3d282d;
+}
+.secDIVpart4{
+    height: 100%;
+    width: 49%;
+    background: linear-gradient(#afc693, #b7f2a5,#afc693);
+}
+.secDIVpart5{
+    height: 100%;
+    width: 14%;
+    background: linear-gradient(#5a7c14,#6ee339 ,#5a7c14);
+}
+
+
+
+.thirdDiv{
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    box-shadow:0px 0px 10px 10px #cfd5e3;
+    display: flex;
+}
+
+.thirdDIVpart{
+    height: 100%;
+    width: 30%;
+    background: linear-gradient(#1e5285,#3e6ef1 ,#1e5285);
+ 
+}
+.thirdDIVpart1{
+    height: 100%;
+    width: 2%;
+    background-color: #3d282d;
+}
+.thirdDIVpart2{
+    height: 100%;
+    width: 3%;
+    background: linear-gradient(#93abc8, #9eb6f8,#93abc8);
+}
+.thirdDIVpart3{
+    height: 100%;
+    width: 2%;
+    background-color: #3d282d;
+}
+.thirdDIVpart4{
+    height: 100%;
+    width: 49%;
+    background: linear-gradient(#93abc8, #9eb6f8,#93abc8);
+}
+.thirdDIVpart5{
+    height: 100%;
+    width: 14%;
+    background: linear-gradient(#1e5285,#3e6ef1 ,#1e5285);
+}
+
