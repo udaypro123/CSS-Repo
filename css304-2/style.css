@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+.bodydiv{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center; */
+     align-items: center;
+} 
+
+.bodydiv div{
+    height: 100%;
+    width: 90%;
+    /* border: 2px solid rgb(75, 252, 5); */
+    /* background-color: white; */
+}
+
+#bodydiv1{
+    height: 15%;
+    background-color: black;
+}
+
+p{
+    color: rgb(249, 245, 245);
+    font-size:28px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+input{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 15px 0px;
+    outline: none;
+    font-size: 20px;
+}
+
+#divinsidediv{
+    height: 49%;
+    width: 100%;
+    /* border: 2px solid rgb(75, 252, 5); */
+}
+
+
+#divinsederpart{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+#divinsederpart div{
+    height: 80px;
+    width: 50%;
+    /* border: 2px solid rgb(255, 0, 8); */
+    background-color: white;
+}
+#divinsederpart div input{
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid rgb(23, 1, 1); */
+  border: white; 
+    font-size: 20px; 
+}
+label{
+    font-size: 25px;
+    padding: 10px 10px;
+    outline: none;
+}
+
+#divinsederpart1{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid rgb(225, 0, 255); */
+    display: flex;
+    justify-content: center;
+}
+#divinsederpart1 div{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#divinsederpart1 div img{
+    height: 40px ;
+    width: 40px;
+    border-radius: 5px;
+}
+#divinsederpart2{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid rgb(255, 85, 0); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+button{
+    height: 70%;
+    width: 40%;
+    background-color: rgb(2, 2, 16);
+    border: 3px solid white;
+    color: white;
+    font-size: 30px;
+
+}
+
+a{
+    color: white;
+}
+span{
+    margin-left:10px ;
+    font-size: 22px;
+}
