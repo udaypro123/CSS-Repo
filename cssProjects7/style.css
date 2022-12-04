@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainerInsideDIv{
+    height: 80%;
+    width: 80%;
+    display: flex;
+   
+}
+
+.cardsdiv{
+height: 100%;
+width: 33.3%;
+background-color: rgb(233, 154, 7);
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+padding: 10px 30px;
+
+}
+.cardsdiv div{
+    height: 25%;
+    width: 100%;
+   /* border: 2px solid red; */
+ 
+}
+
+.cardsdiv1{
+height: 100%;
+width: 33.3%;
+
+background-color:#006970;
+padding: 10px 30px;
+
+}
+
+.cardsdiv1 div{
+    height: 25%;
+    width: 100%;
+  
+   
+}
+
+.cardsdiv2{
+
+    height: 100%;
+    width: 33.3%;
+    /* border: 2px solid red; */
+    border-bottom-right-radius: 15px;
+border-top-right-radius: 15px;
+background-color: #004241;
+padding: 10px 30px;
+}
+
+.cardsdiv2 div{
+    height: 25%;
+    width: 100%;
+   /* border: 2px solid red; */
+}
+
+p{
+    color: white;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    color: aliceblue;
+}
+button{
+    height: 50%;
+    width: 45%;
+    border-radius: 35px;
+    border: white;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(233, 154, 7);
+}
