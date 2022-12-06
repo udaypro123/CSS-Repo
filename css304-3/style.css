@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+   height: 100vh;
+   width: 100vw; 
+}
+.bodydiv1{
+    height: 70%;
+    width: 100%;
+
+}
+h2{
+    margin: 10px 10px;
+}
+p{
+    font-size: 20px;
+    margin: 10px 10px;  
+}
