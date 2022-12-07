@@ -91,3 +91,9 @@ button{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(233, 154, 7);
 }
+
+div img{
+    height: 100px;
+    width: 100px;
+    margin: 40px 10px;
+}

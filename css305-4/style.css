@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 14%;
+    width: 100%;
+    background-color: rgb(69, 69, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbardiv {
+    height: 78%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.first {
+    /* border: 2px solid red; */
+    background-color: rgb(69, 69, 255);
+    height: 100%;
+    width: 16%;
+    text-align: end;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    /* margin-right: 20px; */
+}
+span{
+    color: yellow;
+    font-size: 15px;
+}
+.plus{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.first p {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+    font-weight: 600;
+    /* margin-right: 40px; */
+}
+
+.second {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondDivpart {
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    height: 60px;
+    width: 90%;
+    outline: none;
+    font-size: 20px;
+    border: white;
+}
+
+.second img {
+    height: 40px;
+    width: 40px;
+    border: white;
+    margin-right: 5px;
+}
+
+.third {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    width: 100%;
+}
+
+.four {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.five {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 8%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 69, 255);
+}
+
+.five select {
+    font-size: 20px;
+    background-color: rgb(69, 69, 255);
+    color: white;
+    border-color: rgb(69, 69, 255);
+}
+
+.six {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 7%;
+    background-color: rgb(69, 69, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.six img {
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px;
+
+}
+
+
+
+
+
+.mainSeconDiv {
+    height: 25%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    height: 100%;
+    width: 95%;
+    margin:0px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+ 
+ p{
+    text-align: center;
+    font-size: 20px;
+}
+ .parent div{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0px;
+}
+.parent div img{
+    height: 80px;
+    width: 80px;
+}
+
+select{
+    border: white;
+    font-size: 20px;
+}
+
+
+.child1,
+.child2,
+.child3,
+.child4, 
+.child5, 
+.child6, 
+.child7,
+.child8,
+.child10 {
+    height: 90%;
+    width: 9%;
+  
+}
+.child9{
+    height: 90%;
+    width: 12%; 
+}
