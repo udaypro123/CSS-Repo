@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to top, green, blue, green);
+    /* justify-content: center; */
+    /* align-items: center;  */
+     /* border: 2px solid red; */
+}
+
+.parent{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    /* border: 2px solid red; */
+    /* background-color: #ecf9f9; */
+    background:linear-gradient(#f1faf9,#e9f9f7,#aec6b7);
+}
+.child1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.subchild1{
+    width: 40%;
+    height: 70%;
+}
+.child2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 10%;
+    display:flex;
+    
+    align-items: center;
+ padding: 40px 40px;
+    /* border: 2px solid red; */
+}
+.child2 img{
+    height: 30px;
+    width: 40px;
+    margin: 0px 40px;
+}
+
+.child3{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+ }
+ 
+.last{
+    width: 80%;
+    height: 50%;
+    background-color: #7cc5b8;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.last1{
+    width: 50%;
+    height: 80%;
+     /* border: 2px solid red; */
+     display: flex;
+     /* justify-content: center;
+     align-items: center; */
+     flex-wrap: wrap;
+}
+.last1 p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 10px 10px;
+}
+.last1 img{
+    width: 80%;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p1{
+    /* padding-left: 1rem; */
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.parent2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    background: linear-gradient(#d1f4f1,#c9f2ea,#9bc6bb);
+}
+.parent2child1{
+    width: 70%;
+    height: 18%;
+    display: flex;
+    /* border: 2px solid rgb(21, 16, 16); */
+    /* background:linear-gradient(#e5faf8,#ebfaf7); */
+    box-shadow: 2px 3px 10px #7cc5b8;
+
+}
+
+.parent2child1divbox{
+    width: 50%;
+    height: 60%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* border: 2px solid rgb(226, 13, 13);   */
+}
+.parent2child1divbox p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.d1{
+    width: 100%;
+    height: 25%;
+    border-radius: 50px;
+    background-color: #ffffff;
+
+}
+
+
+
+.parent2child1divright{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(249, 252, 252);
+    /* border: 2px solid red; */
+}
+
+.subcontainerleftdivmiddle{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(227, 253, 248);
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.subcontainerleftdivmiddlediv{
+    width: 80%;
+    height: 70%;
+    background-color: rgb(227, 253, 248);
+    /* border: 2px solid rgb(8, 0, 255); */
+}
+.subcontainerleftdivmiddlediv p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5d6e6b;
+}
+
+.subcontainerleftdivleft{
+    width: 15%;
+    height: 100%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    /* border: 2px solid rgb(234, 6, 222); */
+    background-color: rgb(227, 253, 248);
+}
+
+
+.d{
+    width: 60%;
+    height:25%;
+    /* border: 2px solid red; */
+    background-color: #90e6d5;
+    border-radius: 50px;
+    margin: 10px 0px;
+}
+img{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.last1 p{
+    padding-left: 1.5rem;
+}
+
+.subcontainerleftdivmiddlediv .pdown{
+    font-size: 15px;
+}
+.subcontainerleftdivleft .pleft{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5d6e6b;
+}
