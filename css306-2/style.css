@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.subcontainer1{
+    height: 19.2%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.subcontainer2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.subcontainer2left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+.subcontainer2lefttop{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.subcontainer2lefttopright{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.subcontainer2lefttopleft{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid rgb(11, 10, 10); */
+}
+.subcontainer2leftbuttom{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.subcontainer2leftbuttomright{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.subcontainer2leftbuttomleft{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.subcontainer2middle{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.subcontainer2right{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid black; */
+}
+.subcontainer3{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.subcontainer3left{
+    height: 100%;
+    width: 35%;
+    /* border: 2px solid black; */
+}
+.subcontainer3middle{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid black; */
+}
+.subcontainer3right{
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid black; */
+}
+img{
+    border: 2px solid black;
+}
