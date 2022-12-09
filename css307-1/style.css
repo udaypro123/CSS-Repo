@@ -14,7 +14,7 @@
 .bodydiv{
     width: 70%;
     height: 80%;
-    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,15 +22,15 @@
     background-color: #191b27;
     border-radius: 10px;
 }
-.row{
+.bodydivpart1{
     width: 80%;
     height: 15%;
-    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
     margin-bottom: 1rem;
     display: flex;
   
 }
-.white{
+.whitepart{
     width: 90%;
     height: 100%;
     padding: 10px;
@@ -39,7 +39,7 @@
     border-radius: 10px;
     margin: 0px 5px;
 }
-.c{
+.cancellbutton{
     width: 10%;
     height: 100%;
     /* border: 2px solid red; */
@@ -49,12 +49,12 @@
     justify-content: center;
     align-items: center;
 }
-.bluelarge{
+.bluepart{
     width: 28%;
     height: 100%;
     /* border: 2px solid red; */
     margin-right: 1.5rem;
-    background-color: #65268f;
+    background-color: #692695;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -65,18 +65,18 @@
     height: 100%;
     /* border: 2px solid red; */
     /* margin-left: 1rem; */
-    background-color: #65268f;
+    background-color: #692795;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pinklarge{
+.pinkbutton{
     width: 28%;
     height: 100%;
     /* border: 2px solid red; */
     margin-right: 1.5rem;
-    background-color: #fc0067;
+    background-color: #ff086f;
     border-radius: 10px;
     display: flex;
     justify-content: center;
